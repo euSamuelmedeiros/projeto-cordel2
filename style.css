@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+   
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: azure;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+header h1 {
+     padding-top: 50px;
+     padding-bottom: 50px;font-size: 4em;
+     font-family: "Passion One", serif;
+}
+
+section {
+   
+    padding-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2em;
+    font-family: "Sriracha", serif;
+    font-size: 3.5vw;
+   
+}
+
+.imgg {
+    background-color: rgb(179, 179, 116);
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+
+    
+}
+
+.imgg > p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(133, 139, 139, 0.438);
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    font-weight: bolder solid black;
+    
+
+
+}
+
+#img001 {
+    background-image: url("imagens/background001.jpg");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 10px 10px 8px rgba(0, 0, 0, 0.486);
+}
+
+#img002 {
+    background-image: url("imagens/background002.jpg");
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 10px 10px 8px rgba(0, 0, 0, 0.486);
+    
+}
+
+
+
+
+
+
+
+
+    
+
+
